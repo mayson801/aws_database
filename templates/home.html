@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/styles/style.css">
+
+</head>
+<script type="text/javascript" src="/static/graph.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+<body onload="on_load_function( {{ shop_data | safe}} )">
+    <div id="top">
+        <div id="asda"></div>
+        <div id="coop"></div>
+        <div id="morrisons"></div>
+        <div id="sainsburys"></div>
+        <div id="tesco"></div>
+    </div>
+    <div id="cont">
+	<canvas id="myChart"></canvas>
+    </div>
+    <div id="bottom"><p>news stories</p></div>
+</body>
+</html>

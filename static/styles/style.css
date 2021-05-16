@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+#top {height: 5vh;
+  background-color: #000000;
+  color: #EADEDA;
+  display: grid;
+  grid-template-areas:'asda coop morrisons sainsburys tesco';
+  text-align: center;
+}
+
+.asda{grid-area: asda}
+.coop{grid-area: coop}
+.morrisons{grid-area: morrisons}
+.sainsburys{grid-area:sainsburys}
+.tesco{grid-area:tesco}
+
+#bottom {
+  height: 5vh;
+  color: #EADEDA;
+  background-color: #000000;
+}
+#cont{
+    height: 90vh;
+}
